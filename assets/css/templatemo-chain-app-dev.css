@@ -1368,13 +1368,13 @@ The Clients
 }
 
 .pricing-item-regular span.price {
-  font-size: 40px;
-  color: #fff;
+  font-size: 35px;
+  color: #000;
   position: absolute;
   font-weight: 700;
   z-index: 1;
-  left: 30px;
-  top: 30px;
+  left: 25px;
+  top: 25px;
 }
 
 .pricing-item-regular h4 {
@@ -1445,13 +1445,13 @@ The Clients
 }
 
 .pricing-item-pro span.price {
-  font-size: 40px;
-  color: #fff;
+  font-size: 35px;
+  color: #000;
   position: absolute;
   font-weight: 700;
   z-index: 1;
-  left: 30px;
-  top: 30px;
+  left: 25px;
+  top: 25px;
 }
 
 .pricing-item-pro h4 {
