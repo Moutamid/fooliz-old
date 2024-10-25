@@ -47,31 +47,16 @@
             margin-top: 20px;
         }
 
-        .button a {
-            display: inline-block;
-            text-decoration: none;
-            color: white;
-            background-color: #3b5998;
-            padding: 12px;
+        .button img {
+            width: 100%;
+            max-width: 300px;
             border-radius: 5px;
-            font-size: 16px;
-            transition: background-color 0.3s ease;
+            cursor: pointer;
+            transition: transform 0.3s ease;
         }
 
-        .button a:hover {
-            background-color: #2d4373;
-        }
-
-        .button a.google-play {
-            background-color: #34a853;
-        }
-
-        .button a.app-store {
-            background-color: #000;
-        }
-
-        .button a.apk-download {
-            background-color: #ff8c00;
+        .button img:hover {
+            transform: scale(1.05);
         }
     </style>
 </head>
@@ -79,14 +64,20 @@
     <div class="container">
         <!-- Logo section -->
         <div class="logo">
-            <img src="logo.png" alt="My Logo">
+            <img src="https://github.com/Moutamid/fooliz.github.io/blob/main/assets/images/logo.png" alt="My Logo">
         </div>
         
-        <!-- Button links -->
+        <!-- Image buttons -->
         <div class="button">
-            <a href="https://play.google.com/store" class="google-play" target="_blank">Get it on Google Play</a>
-            <a href="https://www.apple.com/app-store/" class="app-store" target="_blank">Download on the App Store</a>
-            <a href="your_apk_link_here.apk" class="apk-download" target="_blank">Download APK</a>
+            <a href="https://play.google.com/store" target="_blank">
+                <img src="https://play.google.com/intl/en_us/badges/images/apps/en-play-badge.png" alt="Get it on Google Play">
+            </a>
+            <a href="https://www.apple.com/app-store/" target="_blank">
+                <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
+            </a>
+            <a href="your_apk_link_here.apk" target="_blank">
+                <img src="https://user-images.githubusercontent.com/114044633/223920025-83687de0-e463-4c5d-8122-e06e4bb7d40c.png" alt="Download APK">
+            </a>
         </div>
     </div>
 </body>
